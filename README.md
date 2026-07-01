@@ -1,22 +1,23 @@
 # News-headline-classifier
-Project Overview
+## Project Overview
 
 The News Headline Classifier is an end-to-end Natural Language Processing (NLP) project that automatically categorizes news headlines into predefined categories using Machine Learning. The project demonstrates the complete lifecycle of a text classification solution—from data collection and preprocessing to feature engineering, model development, evaluation, sensitivity analysis, and prediction.
 
 Multiple classification algorithms were trained and compared to identify the most effective model for news categorization. The final solution achieved 93% classification accuracy, with Random Forest outperforming other traditional machine learning models.
 
-🎯 Business Problem
+## 🎯 Business Problem
 
 With thousands of news articles published every day, manually organizing headlines into categories is time-consuming and inconsistent. News organizations and digital platforms require an automated classification system to accurately categorize articles, improve content management, enhance searchability, and deliver personalized news recommendations.
 
-🎯 Objectives
+## 🎯 Objectives
 Build an automated news headline classification system using Natural Language Processing.
 Transform textual headlines into machine-readable features using TF-IDF.
 Train and compare multiple Machine Learning algorithms.
 Identify the best-performing classification model.
 Analyze model robustness through sensitivity analysis.
 Generate performance visualizations for business interpretation.
-🧠 Technologies Used
+
+## 🧠 Technologies Used
 Category	              Technologies
 Programming Language	   Python
 Machine Learning	       Scikit-learn
@@ -25,7 +26,8 @@ NLP	                     TF-IDF Vectorization
 Visualization	           Matplotlib, Seaborn
 Development Environment	 Jupyter Notebook
 Data Format	             CSV, JSON
-📂 Dataset
+
+## 📂 Dataset
 
 The project uses a labeled dataset consisting of news headlines belonging to four major categories:
 
@@ -36,12 +38,12 @@ The project uses a labeled dataset consisting of news headlines belonging to fou
 
 Each headline is paired with its corresponding category, enabling supervised machine learning for multi-class text classification.
 
-⚙️ Project Workflow
-1️⃣ Data Collection
+## ⚙️ Project Workflow
+### 1️⃣ Data Collection
 Imported structured news headline dataset.
 Loaded headlines and category labels.
 Validated missing values and dataset consistency.
-2️⃣ Text Preprocessing
+### 2️⃣ Text Preprocessing
 
 Raw text was transformed into machine-readable format by:
 
@@ -53,7 +55,7 @@ Cleaning noisy text
 
 This preprocessing improves feature quality and model performance.
 
-3️⃣ Feature Engineering
+### 3️⃣ Feature Engineering
 
 The cleaned headlines were converted into numerical vectors using:
 
@@ -65,7 +67,7 @@ Unigram representation
 Bigram representation
 Vocabulary size optimization
 Feature scaling based on word importance
-4️⃣ Model Development
+### 4️⃣ Model Development
 
 Five supervised Machine Learning algorithms were trained and evaluated.
 
@@ -78,7 +80,7 @@ Random Forest	93.0%
 
 Random Forest produced the highest overall performance across all evaluation metrics.
 
-📊 Model Evaluation
+## 📊 Model Evaluation
 
 The best-performing Random Forest model achieved:
 
@@ -95,7 +97,7 @@ Precision
 Recall
 F1 Score
 Accuracy
-📈 Sensitivity Analysis
+## 📈 Sensitivity Analysis
 
 To evaluate model stability, multiple experiments were performed.
 
@@ -139,7 +141,7 @@ Finding
 
 The model maintained strong performance across different splits, demonstrating good generalization capability.
 
-📉 Performance Visualization
+## 📉 Performance Visualization
 
 The project includes comprehensive visual analysis including:
 
@@ -153,7 +155,7 @@ Overall Performance Metrics Dashboard
 
 These visualizations provide an intuitive understanding of model performance and parameter optimization.
 
-🔍 Key Insights
+## 🔍 Key Insights
 Random Forest achieved the highest classification accuracy (93%).
 TF-IDF proved highly effective for representing textual features.
 Increasing vocabulary beyond 500 features provided minimal additional benefit.
