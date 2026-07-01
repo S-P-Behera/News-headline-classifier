@@ -18,14 +18,14 @@ Analyze model robustness through sensitivity analysis.
 Generate performance visualizations for business interpretation.
 
 ## 🧠 Technologies Used
-Category	              Technologies
-Programming Language	   Python
-Machine Learning	       Scikit-learn
-Data Processing	         Pandas, NumPy
-NLP	                     TF-IDF Vectorization
-Visualization	           Matplotlib, Seaborn
-Development Environment	 Jupyter Notebook
-Data Format	             CSV, JSON
+
+Programming Language--	   Python |
+Machine Learning	--       Scikit-learn|
+Data Processing	  --       Pandas, NumPy|
+NLP	            --         TF-IDF Vectorization|
+Visualization	      --     Matplotlib, Seaborn|
+Development Environment	-- Jupyter Notebook|
+Data Format	           --  CSV, JSON|
 
 ## 📂 Dataset
 
